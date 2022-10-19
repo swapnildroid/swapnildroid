@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -23,19 +23,20 @@ projects:
   #   - stars
   limit: 9
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
     # - repo-name
+    - test_data
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: swapnildroid
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -47,14 +48,36 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Android
+    web_url: https://github.com/topics/android
+    image_url: https://raw.githubusercontent.com/github/explore/8baf984947f4d9c32006bd03fa4c51ff91aadf8d/topics/android/android.png
 
-  - name: Web design
+  - name: Kotlin
+    web_url: https://github.com/topics/kotlin
+    image_url: https://raw.githubusercontent.com/github/explore/4479d2a2c854198cb00160f8593519c14dc3b905/topics/kotlin/kotlin.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png
+
+  - name: Java
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/5b3600551e122a3277c2c5368af2ad5725ffa9a1/topics/java/java.png
+
+  - name: C
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/f3e22f0dca2be955676bc70d6214b95b13354ee8/topics/c/c.png
+
+  - name: C++
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/180320cffc25f4ed1bbdfd33d4db3a66eeeeb358/topics/cpp/cpp.png
+
+  - name: Flutter
+    web_url: https://github.com/topics/java
+    image_url: https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/flutter/flutter.png
+
+  - 
+    web_url: https://github.com/topics/dart
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dart/dart.png
 
 theme: jekyll-theme-cayman
